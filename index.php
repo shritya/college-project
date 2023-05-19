@@ -14,7 +14,7 @@
 
   <div class="content">
   <!-- <div class="tableform">  -->
-  <form  action="login.php" method="post">
+  <form  action="index.php" method="post">
     <section class="lp-child">
           <h3 class="login-heading-one">
             User Login

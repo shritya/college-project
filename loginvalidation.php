@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['quiz_subject_id']=$quiz_subject_id;
         $_SESSION['class_id']=$class_id;
 
-        header("location: index.php");   // redirect to home page after successfull login.
+        header("location: exam.php");   // redirect to home page after successfull login.
     }
     else {
         $showError = "Invalid Input";    // Error after unsuccessfull login
